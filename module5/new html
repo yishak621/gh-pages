@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head><link href="style.css" rel="stylesheet" type="text/css" >
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>✅Log in</title>
+</head><nav id="navbar">
+	<div class="container">
+		<ul><li><a href="ethiopia.html">Home</a></li>
+		<li><a href="form.html">Forms</a></li>
+	<li><a href="https://www.ethiopianairlines.com/aa" target="_blank">Services</a></li>
+<li><a href="#">About us</a></li></ul>
+	</div>
+</nav>
+<a href="ethiopia.html">Go to homepage</a>
+<br>
+<body>
+	<h2> if you have account before please log in</h2>
+	<form class="my-form" action="process.php" method="post">
+
+<div>
+<form class="my-form" action="process.php" method="post">
+	<label>Email</label>
+	<input type="email" name="email" placeholder="Enter the email" required="required"/>
+</div>
+<br>
+<hr>
+<div class="form-group">
+<label>Password</label>
+	<input type="Password" name="firstname" placeholder="Enter your Password" required="required"/>
+</div>
+<br>
+<hr><input class="button" type="submit" name="" value="log in">
+<br><div style=",margin-top: 500px;"></div>
+<a class="fix-me button" href="contact.html">💻📞Contact us </a>
+</body>
+</html>
